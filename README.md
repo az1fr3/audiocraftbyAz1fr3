@@ -1,3 +1,7 @@
+<a target="_blank" href="https://colab.research.google.com/github/az1fr3/audiocraftbyAz1fr3/blob/main/Audigen_Az1fr3_V1S.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # AudioCraft
 ![docs badge](https://github.com/facebookresearch/audiocraft/workflows/audiocraft_docs/badge.svg)
 ![linter badge](https://github.com/facebookresearch/audiocraft/workflows/audiocraft_linter/badge.svg)
