@@ -1,9 +1,7 @@
 
  follow me for more: https://linktr.ee/az1fr3
 
-<a target="_blank" href="https://colab.research.google.com/github/az1fr3/audiocraftbyAz1fr3/blob/main/Audigen_Az1fr3_V1S.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+
 
 # AudioCraft
 ![docs badge](https://github.com/facebookresearch/audiocraft/workflows/audiocraft_docs/badge.svg)
@@ -38,8 +36,13 @@ conda install 'ffmpeg<5' -c  conda-forge
 
 At the moment, AudioCraft contains the training code and inference code for:
 * [MusicGen](./docs/MUSICGEN.md): A state-of-the-art controllable text-to-music model.
-* [AudioGen](./docs/AUDIOGEN.md): A state-of-the-art text-to-sound model.
+  
+* [AudioGen](./docs/AUDIOGEN.md): A state-of-the-art text-to-sound model.  <a target="_blank" href="https://colab.research.google.com/github/az1fr3/audiocraftbyAz1fr3/blob/main/Audigen_Az1fr3_V1S.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 * [EnCodec](./docs/ENCODEC.md): A state-of-the-art high fidelity neural audio codec.
+  
 * [Multi Band Diffusion](./docs/MBD.md): An EnCodec compatible decoder using diffusion.
 
 ## Training code
