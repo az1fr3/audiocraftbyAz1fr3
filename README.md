@@ -8,12 +8,11 @@
 ![linter badge](https://github.com/facebookresearch/audiocraft/workflows/audiocraft_linter/badge.svg)
 ![tests badge](https://github.com/facebookresearch/audiocraft/workflows/audiocraft_tests/badge.svg)
 
-AudioCraft is a PyTorch library for deep learning research on audio generation. AudioCraft contains inference and training code
-for two state-of-the-art AI generative models producing high-quality audio: AudioGen and MusicGen.
+AudioCraft es una biblioteca de PyTorch para la investigación en aprendizaje profundo sobre generación de audio. AudioCraft contiene código de inferencia y entrenamiento para dos modelos generativos de IA de última generación que producen audio de alta calidad: AudioGen y MusicGen.
 
+# Instalación
 
-## Installation
-AudioCraft requires Python 3.9, PyTorch 2.0.0. To install AudioCraft, you can run the following:
+AudioCraft requiere Python 3.9 y PyTorch 2.0.0. Para instalar AudioCraft, puedes ejecutar lo siguiente
 
 ```shell
 # Best to make sure you have torch installed first, in particular before installing xformers.
@@ -32,9 +31,9 @@ sudo apt-get install ffmpeg
 conda install 'ffmpeg<5' -c  conda-forge
 ```
 
-## Models
+## Modelos
 
-At the moment, AudioCraft contains the training code and inference code for:
+En este momento, AudioCraft contiene el código de entrenamiento y el código de inferencia para:
 * [MusicGen](./docs/MUSICGEN.md): A state-of-the-art controllable text-to-music model.
   
 * [AudioGen](./docs/AUDIOGEN.md): A state-of-the-art text-to-sound model.  <a target="_blank" href="https://colab.research.google.com/github/az1fr3/audiocraftbyAz1fr3/blob/main/Audigen_Az1fr3_V1S.ipynb">
@@ -45,14 +44,14 @@ At the moment, AudioCraft contains the training code and inference code for:
   
 * [Multi Band Diffusion](./docs/MBD.md): An EnCodec compatible decoder using diffusion.
 
-## Training code
+## Codigo de entrenamiento: 
 
-AudioCraft contains PyTorch components for deep learning research in audio and training pipelines for the developed models.
-For a general introduction of AudioCraft design principles and instructions to develop your own training pipeline, refer to
-the [AudioCraft training documentation](./docs/TRAINING.md).
+AudioCraft contiene componentes de PyTorch para la investigación en aprendizaje profundo en audio y tuberías de entrenamiento para los modelos desarrollados.
+Para una introducción general a los principios de diseño de AudioCraft e instrucciones para desarrollar tu propia tubería de entrenamiento, consulta el
+[AudioCraft training documentation](./docs/TRAINING.md).
 
-For reproducing existing work and using the developed training pipelines, refer to the instructions for each specific model
-that provides pointers to configuration, example grids and model/task-specific information and FAQ.
+Para reproducir trabajos existentes y utilizar las tuberías de entrenamiento desarrolladas, 
+consulta las instrucciones para cada modelo específico que proporciona indicaciones para la configuración, ejemplos de mallas y información específica del modelo/tarea, así como preguntas frecuentes (FAQ).
 
 
 ## API documentation
